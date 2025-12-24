@@ -17,14 +17,14 @@ const NeuralBackground: React.FC = () => {
 
     const width = window.innerWidth;
     const height = window.innerHeight;
-    const nodeCount = 50;
+    const nodeCount = 40; // Reduced count for minimalism
 
     const svg = d3.select(svgRef.current)
       .attr('width', '100%')
       .attr('height', '100%')
       .style('background-color', 'transparent');
 
-    svg.selectAll("*").remove(); // Clear previous
+    svg.selectAll("*").remove(); 
 
     // Generate random nodes
     const nodes: Node[] = Array.from({ length: nodeCount }, () => ({
@@ -42,13 +42,13 @@ const NeuralBackground: React.FC = () => {
       .force('center', d3.forceCenter(width / 2, height / 2).strength(0.05))
       .force('collision', d3.forceCollide().radius(10));
 
-    // Draw elements - Updated for Dark Background
+    // Draw elements
     const linkLine = svg.append('g')
       .selectAll('line')
       .data(links)
       .enter().append('line')
-      .attr('stroke', '#ffffff') // White lines
-      .attr('stroke-opacity', 0.05) // Very subtle
+      .attr('stroke', '#ffffff') 
+      .attr('stroke-opacity', 0.03) // Extremely subtle
       .attr('stroke-width', 1);
 
     const nodeCircle = svg.append('g')
@@ -56,8 +56,8 @@ const NeuralBackground: React.FC = () => {
       .data(nodes)
       .enter().append('circle')
       .attr('r', d => d.r)
-      .attr('fill', '#ffffff') // White nodes
-      .attr('opacity', 0.15); // Subtle opacity
+      .attr('fill', '#ffffff') 
+      .attr('opacity', 0.05); // Extremely subtle
 
     simulation.on('tick', () => {
       nodeCircle

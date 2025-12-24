@@ -1,87 +1,64 @@
+
 export const content = {
   en: {
     navbar: {
       about: 'about',
       blog: 'blog',
       careers: 'careers',
-      apply: 'apply',
+      apply: 'apply now',
     },
-    hero: {
-      subtitle: 'Accelerate Latin America',
-      title: 'OBELYSK',
-      description: 'Building the next generation of intelligent systems for humanity, starting with AI that truly understands the reality of Latin America.',
+    memo: {
+      meta: 'Announcement • Feb 2025',
+      title: 'Accelerate Latin America',
+      subtitle: 'Building the cognitive infrastructure for emerging economies.',
+      intro: 'Global AI models fail where context matters most. Today we introduce OBELYSK: native artificial intelligence designed to turn the Latin American context into an engineering advantage.',
+      
+      chartTitle: 'Performance Gap: Global vs Native',
+      chartCaption: 'Obelysk architectures outperform larger global models when evaluated on regional linguistic and cultural benchmarks.',
+
+      quote: 'Intelligence is necessary, but not sufficient. Value emerges when intelligence becomes operational capability.',
+      
+      section1Title: 'The Context Gap',
+      section1Body: 'We have achieved a breakthrough in region-specific performance. While global models score high on abstract reasoning, they degrade significantly when facing local realities—dialects, regulations, and cultural norms. OBELYSK closes this gap by building Small Language Models (SLMs) that operate as specialized "mini-brains" with high practical utility.',
+
+      section2Title: 'From Chat to Action',
+      section2Body: 'We are moving beyond text generation to autonomous execution. Starting in education with HAIKU and enterprise with our corporate agents, we are building systems that don\'t just talk, but do work. This is the foundation for Organic Superintelligence (OSI).',
+
+      closing: 'Join us in building the intelligence of Latin America.',
     },
-    mission: {
-      title: 'Intelligence is necessary,',
-      titleHighlight: 'but not sufficient.',
-      intro: 'Real impact is created when AI is built for the specific realities it serves—not generic solutions retrofitted to local problems. At OBELYSK, we are building Small Language Models and autonomous systems designed from the ground up for Latin America.',
-      gapTitle: 'The Context Gap',
-      gapDesc: 'Until now, AI advances have come from models trained on global internet data. Despite its vastness, it\'s optimized for English-speaking, developed markets. Frontier models excel globally but fail locally because they lack regional nuance.',
-      strategyTitle: 'Our Strategy',
-      strategyDesc: 'Contextual data is central to our strategy. We generate high-quality, region-specific datasets that exist nowhere else. We give our AI systems the context to act effectively in Latin American environments.',
+    about: {
+      header: 'About',
+      subHeader: 'Obelysk is an AI research and deployment company. Our mission is to build the cognitive infrastructure that Latin America needs to thrive in the 21st century.',
+      autopoiesis: 'Context is the foundation of operational intelligence.',
+      missionTitle: 'Our Mission',
+      missionBody: "Our goal is to accelerate economic development by closing the gap between global AI capabilities and local realities. We are a dedicated team of engineers, researchers, and builders who believe that Latin America requires its own sovereign intelligence—systems built to understand our dialects, our regulations, and our unique challenges. We are not chasing abstract general intelligence; we are building rigorous, high-utility engines that drive tangible progress in education, healthcare, and enterprise.",
+      visionTitle: 'Our vision for the region',
+      visionBody: 'We envision a future where Latin America is not just a consumer of imported technology, but a powerhouse of sovereign intelligence. We ensure our systems benefit the region first.',
+      visionBtn1: 'Our Technology',
+      visionBtn2: 'Our Manifesto',
+      teamTitle: 'The Founding Team',
+      team: [
+        { name: 'Joseph Reth', role: 'Chief Executive Officer' },
+        { name: 'Eike Gerhardt, PhD', role: 'Chief Business Officer' },
+        { name: 'Larry Callahan, PhD', role: 'Chief Scientist' }
+      ]
     },
-    chart: {
-      title: 'Why Latin America?',
-      p1: 'Economic progress is limited by our ability to deploy intelligent systems that understand local realities. Latin America has 600 million people and rapidly growing digital economies, yet faces massive inefficiencies.',
-      p2: 'The chart illustrates the "Context Gap": while global models possess high general reasoning capabilities, their performance drops precipitously when dealing with regional dialects, cultural norms, and local regulatory environments. OBELYSK bridges this gap.',
-      labels: {
-        reasoning: 'General Reasoning',
-        dialect: 'Regional Dialect',
-        culture: 'Cultural Norms',
-        regs: 'Local Regs',
-      },
-      legend: {
-        global: 'Global Generic Models',
-        local: 'OBELYSK Contextual AI',
-      }
-    },
-    sectors: {
-      title: 'Target Sectors',
-      subtitle: 'We start where feedback loops are clearest and the opportunity for impact is greatest.',
-      items: {
-        ed: {
-          name: 'Education',
-          desc: 'Personalizing learning for millions. Systems that understand regional dialects and socioeconomic contexts.',
-        },
-        hc: {
-          name: 'Healthcare',
-          desc: 'Revolutionizing diagnostics and access. Automating contextual decision-making in resource-constrained environments.',
-        },
-        ent: {
-          name: 'Enterprise',
-          desc: 'Automating operational workflows. Custom agents that understand local business processes and regulations.',
-        },
-        auto: {
-          name: 'Automation',
-          desc: 'From software to robotics. Developing systems capable of acting in the physical world.',
-        }
-      }
-    },
-    vision: {
-      eyebrow: 'Beyond Today',
-      title: 'Organic Superintelligence',
-      titleSub: '(OSI)',
-      p1: 'OBELYSK does not limit itself to what exists today. We envision building frontier AI for Latin America—designed from the region, but with global impact.',
-      p2Part1: 'But our deepest vision goes further. We are working toward the creation of the first',
-      p2Strong: 'Organic Superintelligence',
-      p2Part2: '—a system conceived not as static software, but as intelligence that learns, evolves, and adapts continuously.',
-      quote: '"Not trained once and deployed. Not fine-tuned periodically. But perpetually learning from reality, refining its understanding, expanding its capabilities."',
-      closing: 'This is not just technology. This is the next step in applied intelligence for humanity.',
-    },
-    team: {
-      whoWeAre: 'Who we are',
-      whoDesc1Part1: 'Our founding team is based in',
-      whoDesc1Strong: 'El Salvador',
-      whoDesc1Part2: ', building deep AI infrastructure for Latin America and beyond.',
-      whoDesc2: 'We\'ve competed in accelerators like CoreNest, published AI research, scaled education-tech solutions, and are obsessed with bringing world-class AI capabilities to underserved markets. We\'ve come together to scale up and reimagine how AI serves emerging economies.',
-      backedBy: 'Backed By',
-      backedDesc: 'We\'re fortunate to be backed by accelerators and investors who share our vision, including',
-      backedStrong: 'CoreNest SV',
-      backedDesc2: ', and advisors deeply embedded in Latin American innovation ecosystems.',
+    modal: {
+      title: 'Join the Revolution',
+      subtitle: 'Help us build the intelligence of Latin America.',
+      name: 'Full Name',
+      email: 'Email Address',
+      linkedin: 'LinkedIn / GitHub URL',
+      message: 'Why do you want to join OBELYSK?',
+      submit: 'Submit Application',
+      success: 'Application Received',
+      successMsg: 'We will be in touch shortly.',
+      close: 'Close',
     },
     footer: {
       copyright: '© 2025 Obelysk Science Technologies, Inc.',
       location: 'San Salvador, El Salvador',
+      followOn: 'Follow on',
     }
   },
   es: {
@@ -91,82 +68,58 @@ export const content = {
       careers: 'carreras',
       apply: 'aplicar',
     },
-    hero: {
-      subtitle: 'Acelerar América Latina',
-      title: 'OBELYSK',
-      description: 'Construyendo la próxima generación de sistemas inteligentes para la humanidad, comenzando con una IA que realmente entiende la realidad de América Latina.',
+    memo: {
+      meta: 'Anuncio • Feb 2025',
+      title: 'Acelerar Latinoamérica',
+      subtitle: 'Construyendo la infraestructura cognitiva para economías emergentes.',
+      intro: 'Los modelos globales fallan donde el contexto más importa. Hoy presentamos OBELYSK: inteligencia artificial nativa diseñada para convertir el contexto latinoamericano en una ventaja de ingeniería.',
+
+      chartTitle: 'Brecha de Desempeño: Global vs Nativo',
+      chartCaption: 'Las arquitecturas de Obelysk superan a modelos globales más grandes al ser evaluadas en benchmarks lingüísticos y culturales regionales.',
+
+      quote: 'La inteligencia es necesaria, pero no suficiente. El valor emerge cuando la inteligencia se convierte en capacidad operativa.',
+
+      section1Title: 'La Brecha de Contexto',
+      section1Body: 'Hemos logrado un avance en el desempeño específico de la región. Mientras los modelos globales puntúan alto en razonamiento abstracto, se degradan significativamente ante realidades locales—dialectos, regulaciones y normas culturales. OBELYSK cierra esta brecha construyendo Small Language Models (SLMs) que operan como "mini-cerebros" especializados con alta utilidad práctica.',
+
+      section2Title: 'Del Chat a la Acción',
+      section2Body: 'Estamos pasando de la generación de texto a la ejecución autónoma. Empezando en educación con HAIKU y en la empresa con nuestros agentes corporativos, estamos construyendo sistemas que no solo hablan, sino que trabajan. Esta es la base para la Superinteligencia Orgánica (OSI).',
+
+      closing: 'Únete a nosotros para construir la inteligencia de América Latina.',
     },
-    mission: {
-      title: 'La inteligencia es necesaria,',
-      titleHighlight: 'pero no suficiente.',
-      intro: 'El impacto real se crea cuando la IA se construye para las realidades específicas a las que sirve, no soluciones genéricas adaptadas a problemas locales. En OBELYSK, estamos construyendo Pequeños Modelos de Lenguaje (SLMs) y sistemas autónomos diseñados desde cero para América Latina.',
-      gapTitle: 'La Brecha de Contexto',
-      gapDesc: 'Hasta ahora, los avances en IA han provenido de modelos entrenados con datos globales de internet. A pesar de su inmensidad, están optimizados para mercados desarrollados de habla inglesa. Los modelos de frontera sobresalen globalmente pero fallan localmente porque carecen de matices regionales.',
-      strategyTitle: 'Nuestra Estrategia',
-      strategyDesc: 'Los datos contextuales son centrales en nuestra estrategia. Generamos conjuntos de datos de alta calidad y específicos de la región que no existen en ningún otro lugar. Damos a nuestros sistemas de IA el contexto para actuar eficazmente en entornos latinoamericanos.',
+    about: {
+      header: 'Nosotros',
+      subHeader: 'Obelysk es una empresa de investigación e implementación de IA. Nuestra misión es construir la infraestructura cognitiva que Latinoamérica necesita para prosperar en el siglo XXI.',
+      autopoiesis: 'El contexto es la base de la inteligencia operativa.',
+      missionTitle: 'Nuestra Misión',
+      missionBody: "Nuestro objetivo es acelerar el desarrollo económico cerrando la brecha entre las capacidades globales de IA y las realidades locales. Somos un equipo dedicado de ingenieros, investigadores y constructores que creen que América Latina requiere su propia inteligencia soberana—sistemas construidos para entender nuestros dialectos, nuestras regulaciones y nuestros desafíos únicos. No perseguimos una inteligencia general abstracta; construimos motores rigurosos y de alta utilidad que impulsan un progreso tangible en educación, salud y empresas.",
+      visionTitle: 'Nuestra visión para la región',
+      visionBody: 'Visualizamos un futuro donde América Latina no sea solo un consumidor de tecnología importada, sino una potencia de inteligencia soberana. Aseguramos que nuestros sistemas beneficien primero a la región.',
+      visionBtn1: 'Nuestra Tecnología',
+      visionBtn2: 'Nuestro Manifiesto',
+      teamTitle: 'El Equipo Fundador',
+      team: [
+        { name: 'Joseph Reth', role: 'Director Ejecutivo (CEO)' },
+        { name: 'Eike Gerhardt, PhD', role: 'Director de Negocios (CBO)' },
+        { name: 'Larry Callahan, PhD', role: 'Científico Principal' }
+      ]
     },
-    chart: {
-      title: '¿Por qué América Latina?',
-      p1: 'El progreso económico está limitado por nuestra capacidad para desplegar sistemas inteligentes que entiendan las realidades locales. América Latina tiene 600 millones de personas y economías digitales en rápido crecimiento, sin embargo enfrenta ineficiencias masivas.',
-      p2: 'El gráfico ilustra la "Brecha de Contexto": mientras que los modelos globales poseen altas capacidades de razonamiento general, su rendimiento cae precipitadamente al tratar con dialectos regionales, normas culturales y entornos regulatorios locales. OBELYSK cierra esta brecha.',
-      labels: {
-        reasoning: 'Razonamiento Gral.',
-        dialect: 'Dialecto Regional',
-        culture: 'Normas Culturales',
-        regs: 'Regulaciones Locales',
-      },
-      legend: {
-        global: 'Modelos Genéricos Globales',
-        local: 'IA Contextual OBELYSK',
-      }
-    },
-    sectors: {
-      title: 'Sectores Objetivo',
-      subtitle: 'Comenzamos donde los ciclos de retroalimentación son más claros y la oportunidad de impacto es mayor.',
-      items: {
-        ed: {
-          name: 'Educación',
-          desc: 'Personalizando el aprendizaje para millones. Sistemas que entienden dialectos regionales y contextos socioeconómicos.',
-        },
-        hc: {
-          name: 'Salud',
-          desc: 'Revolucionando diagnósticos y acceso. Automatizando la toma de decisiones contextuales en entornos con recursos limitados.',
-        },
-        ent: {
-          name: 'Empresas',
-          desc: 'Automatizando flujos de trabajo operativos. Agentes personalizados que entienden procesos de negocio y regulaciones locales.',
-        },
-        auto: {
-          name: 'Automatización',
-          desc: 'Del software a la robótica. Desarrollando sistemas capaces de actuar en el mundo físico.',
-        }
-      }
-    },
-    vision: {
-      eyebrow: 'Más allá de hoy',
-      title: 'Superinteligencia Orgánica',
-      titleSub: '(OSI)',
-      p1: 'OBELYSK no se limita a lo que existe hoy. Imaginamos construir IA de frontera para América Latina—diseñada desde la región, pero con impacto global.',
-      p2Part1: 'Pero nuestra visión más profunda va más allá. Estamos trabajando hacia la creación de la primera',
-      p2Strong: 'Superinteligencia Orgánica',
-      p2Part2: '—un sistema concebido no como software estático, sino como inteligencia que aprende, evoluciona y se adapta continuamente.',
-      quote: '"No entrenada una vez y desplegada. No ajustada periódicamente. Sino perpetuamente aprendiendo de la realidad, refinando su entendimiento, expandiendo sus capacidades."',
-      closing: 'Esto no es solo tecnología. Este es el siguiente paso en inteligencia aplicada para la humanidad.',
-    },
-    team: {
-      whoWeAre: 'Quiénes somos',
-      whoDesc1Part1: 'Nuestro equipo fundador está basado en',
-      whoDesc1Strong: 'El Salvador',
-      whoDesc1Part2: ', construyendo infraestructura profunda de IA para América Latina y más allá.',
-      whoDesc2: 'Hemos competido en aceleradoras como CoreNest, publicado investigación en IA, escalado soluciones ed-tech, y estamos obsesionados con traer capacidades de IA de clase mundial a mercados desatendidos.',
-      backedBy: 'Respaldados Por',
-      backedDesc: 'Tenemos la fortuna de estar respaldados por aceleradoras e inversores que comparten nuestra visión, incluyendo',
-      backedStrong: 'CoreNest SV',
-      backedDesc2: ', y asesores profundamente integrados en los ecosistemas de innovación de América Latina.',
+    modal: {
+      title: 'Únete a la Revolución',
+      subtitle: 'Ayúdanos a construir la inteligencia de América Latina.',
+      name: 'Nombre Completo',
+      email: 'Correo Electrónico',
+      linkedin: 'URL de LinkedIn / GitHub',
+      message: '¿Por qué quieres unirte a OBELYSK?',
+      submit: 'Enviar Aplicación',
+      success: 'Aplicación Recibida',
+      successMsg: 'Estaremos en contacto pronto.',
+      close: 'Cerrar',
     },
     footer: {
       copyright: '© 2025 Obelysk Science Technologies, Inc.',
       location: 'San Salvador, El Salvador',
+      followOn: 'Síguenos en',
     }
   }
 };
