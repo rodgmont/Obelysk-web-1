@@ -7,6 +7,12 @@ export const content = {
       careers: 'careers',
       apply: 'apply now',
     },
+    hero: {
+      subtitle: 'Sovereign Intelligence',
+      title: 'Obelysk',
+      description: 'The cognitive infrastructure for Latin America.',
+      cta: 'Join the Revolution'
+    },
     memo: {
       meta: 'Announcement • Feb 2025',
       title: 'Accelerate Latin America',
@@ -25,6 +31,47 @@ export const content = {
       section2Body: 'We are moving beyond text generation to autonomous execution. Starting in education with HAIKU and enterprise with our corporate agents, we are building systems that don\'t just talk, but do work. This is the foundation for Organic Superintelligence (OSI).',
 
       closing: 'Join us in building the intelligence of Latin America.',
+    },
+    mission: {
+      title: 'Our Mission',
+      titleHighlight: 'Native Intelligence',
+      intro: 'We are bridging the gap between global AI capabilities and local realities.',
+      gapTitle: 'The Context Gap',
+      gapDesc: 'Global models fail to capture local nuances, dialects, and regulations.',
+      strategyTitle: 'Our Strategy',
+      strategyDesc: 'We build region-specific models that serve as specialized engines for growth.'
+    },
+    sectors: {
+      title: 'Strategic Sectors',
+      subtitle: 'Deploying high-utility intelligence where it creates the most value.',
+      items: {
+        ed: { name: 'Education', desc: 'Hyper-personalized tutoring for every student.' },
+        hc: { name: 'Healthcare', desc: 'Diagnostic support and patient management.' },
+        ent: { name: 'Enterprise', desc: 'Automating cognitive labor in key industries.' },
+        auto: { name: 'Government', desc: 'Efficient public services and citizen support.' }
+      }
+    },
+    vision: {
+      eyebrow: 'Our Vision',
+      title: 'A Future of',
+      titleSub: 'Abundance',
+      p1: 'We envision a Latin America that leads in the age of artificial intelligence.',
+      p2Part1: 'We must move from being consumers of technology to becoming ',
+      p2Strong: 'creators of intelligence',
+      p2Part2: '.',
+      quote: 'The future is not inherited, it is built.',
+      closing: 'Join us in constructing the next era of our civilization.'
+    },
+    team: {
+      whoWeAre: 'Who We Are',
+      whoDesc1Part1: 'We are a collective of ',
+      whoDesc1Strong: 'builders, scientists, and engineers',
+      whoDesc1Part2: ' from across the region.',
+      whoDesc2: 'United by a single mission: to unlock the potential of our people through technology.',
+      backedBy: 'Backed By',
+      backedDesc: 'Supported by ',
+      backedStrong: 'world-class investors',
+      backedDesc2: ' who believe in our mission.'
     },
     about: {
       header: 'About',
@@ -68,6 +115,12 @@ export const content = {
       careers: 'carreras',
       apply: 'aplicar',
     },
+    hero: {
+      subtitle: 'Inteligencia Soberana',
+      title: 'Obelysk',
+      description: 'La infraestructura cognitiva para América Latina.',
+      cta: 'Únete a la Revolución'
+    },
     memo: {
       meta: 'Anuncio • Feb 2025',
       title: 'Acelerar Latinoamérica',
@@ -86,6 +139,47 @@ export const content = {
       section2Body: 'Estamos pasando de la generación de texto a la ejecución autónoma. Empezando en educación con HAIKU y en la empresa con nuestros agentes corporativos, estamos construyendo sistemas que no solo hablan, sino que trabajan. Esta es la base para la Superinteligencia Orgánica (OSI).',
 
       closing: 'Únete a nosotros para construir la inteligencia de América Latina.',
+    },
+    mission: {
+      title: 'Cerrando la',
+      titleHighlight: 'Brecha de Inteligencia',
+      intro: 'Estamos construyendo los modelos fundamentales que entienden nuestro contexto, cultura y necesidades.',
+      gapTitle: 'La Brecha de Contexto',
+      gapDesc: 'Los modelos globales no capturan los matices de nuestra región. Construimos para la realidad local.',
+      strategyTitle: 'Nuestra Estrategia',
+      strategyDesc: 'Integración vertical de datos, entrenamiento y despliegue para el máximo impacto.'
+    },
+    sectors: {
+      title: 'Sectores Estratégicos',
+      subtitle: 'Desplegando inteligencia de alta utilidad donde crea más valor.',
+      items: {
+        ed: { name: 'Educación', desc: 'Tutoría hiper-personalizada para cada estudiante.' },
+        hc: { name: 'Salud', desc: 'Soporte a decisiones clínicas y defensa del paciente.' },
+        ent: { name: 'Empresa', desc: 'Automatización del trabajo cognitivo en industrias clave.' },
+        auto: { name: 'Gobierno', desc: 'Servicios públicos eficientes y atención ciudadana.' }
+      }
+    },
+    vision: {
+      eyebrow: 'Nuestra Visión',
+      title: 'Un Futuro de',
+      titleSub: 'Abundancia',
+      p1: 'Visualizamos una América Latina que lidera en la era de la inteligencia artificial.',
+      p2Part1: 'Debemos pasar de ser consumidores de tecnología a ser ',
+      p2Strong: 'creadores de inteligencia',
+      p2Part2: '.',
+      quote: 'El futuro no se hereda, se construye.',
+      closing: 'Únete a nosotros en la construcción de la próxima era de nuestra civilización.'
+    },
+    team: {
+      whoWeAre: 'Quiénes Somos',
+      whoDesc1Part1: 'Somos un colectivo de ',
+      whoDesc1Strong: 'constructores, científicos e ingenieros',
+      whoDesc1Part2: ' de toda la región.',
+      whoDesc2: 'Unidos por una sola misión: desbloquear el potencial de nuestra gente a través de la tecnología.',
+      backedBy: 'Respaldado Por',
+      backedDesc: 'Apoyados por ',
+      backedStrong: 'inversores de clase mundial',
+      backedDesc2: ' que creen en nuestra misión.'
     },
     about: {
       header: 'Nosotros',
